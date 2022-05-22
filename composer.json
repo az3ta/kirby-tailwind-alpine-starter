@@ -1,0 +1,36 @@
+{
+  "name": "az3ta/kirby-tailwind-alpine-starter",
+  "description": "Starterkit for Kirby 3 CMS, using Tailwind CSS and Alpine JS",
+  "type": "project",
+  "keywords": [
+    "kirby",
+    "cms",
+    "starterkit",
+    "Tailwind CSS",
+    "Alpine JS"
+  ],
+  "homepage": "https://getkirby.com",
+  "authors": [
+    {
+      "name": "Andrea Zaccuri",
+      "email": "andreazaccuri@pm.me",
+      "homepage": "https://azeta.io"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0 <8.2.0",
+    "getkirby/cms": "^3.6"
+  },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 kirby/router.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  }
+}
