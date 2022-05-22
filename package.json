@@ -1,0 +1,26 @@
+{
+  "name": "kirby-tailwind-alpine-starter",
+  "version": "1.0.0",
+  "description": "<img src=\"http://getkirby.com/assets/images/github/plainkit.jpg\" width=\"300\">",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./assets/css/styles.css -w",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./assets/css/styles.css -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/az3ta/kirby-tailwind-alpine-starter.git"
+  },
+  "keywords": [],
+  "author": "Andrea Zaccuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/az3ta/kirby-tailwind-alpine-starter/issues"
+  },
+  "homepage": "https://github.com/az3ta/kirby-tailwind-alpine-starter#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}

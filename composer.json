@@ -9,7 +9,7 @@
     "Tailwind CSS",
     "Alpine JS"
   ],
-  "homepage": "https://getkirby.com",
+  "homepage": "https://github.com/az3ta/kirby-tailwind-alpine-starter",
   "authors": [
     {
       "name": "Andrea Zaccuri",
@@ -19,7 +19,9 @@
   ],
   "require": {
     "php": ">=7.4.0 <8.2.0",
-    "getkirby/cms": "^3.6"
+    "getkirby/cms": "^3.6",
+    "diesdasdigital/kirby-meta-knight": "^1.2",
+    "bnomei/kirby3-doctor": "^2.1"
   },
   "scripts": {
     "start": [
