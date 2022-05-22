@@ -13,7 +13,8 @@ Icon
 # Lock files
 # ---------------
 
-.lock
+/*.lock
+/package-lock.json
 
 # Editors
 # (sensitive workspace files)
