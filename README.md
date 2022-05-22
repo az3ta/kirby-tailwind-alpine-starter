@@ -1,16 +1,18 @@
-# Kirby Starterkit (Tailwind CSS + Alpine JS)
+# Kirby Starterkit
+
+https://img.shields.io/github/v/release/az3ta/kirby-tailwind-alpine-starter
 
 Personal starterkit for Kirby based projects, it includes Tailwind CSS and Alpine JS + some Kirby plugins.
 
 ## Requirements
 
--   Composer
--   NPM
--   PHP server (personally using Valet Laravel)
+-   (Composer)[https://getcomposer.org]
+-   (NPM)[https://www.npmjs.com]
+-   PHP server (e.g. (Valet Laravel)[https://laravel.com/docs/9.x/valet])
 
 ## Installation
 
-1. Go to production folder
+1. Go to working folder
 
 2. Clone repo
 
