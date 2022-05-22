@@ -15,7 +15,14 @@ Read our guide on [how to get started with Kirby](https://getkirby.com/docs/guid
 You can [download the latest version](https://github.com/getkirby/plainkit/archive/main.zip) of the Plainkit.  
 If you are familiar with Git, you can clone Kirby's Plainkit repository from Github.
 
+<<<<<<< HEAD
     git clone https://github.com/getkirby/plainkit.git
+=======
+```
+git clone https://github.com/az3ta/kirby-tailwind-alpine-starter YOUR-PROJECT
+cd YOUR-PROJECT
+```
+>>>>>>> f5ced2afcfe335cdeaca3a125806d56ed99a31d5
 
 ## What's Kirby?
 - **[getkirby.com](https://getkirby.com)** – Get to know the CMS.
