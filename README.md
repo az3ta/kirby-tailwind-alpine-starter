@@ -1,6 +1,6 @@
 # Kirby Starterkit
 
-https://img.shields.io/github/v/release/az3ta/kirby-tailwind-alpine-starter
+[![Release](https://img.shields.io/github/v/release/az3ta/kirby-tailwind-alpine-starter)](https://img.shields.io/github/v/release/az3ta/kirby-tailwind-alpine-starter/releases)
 
 Personal starterkit for Kirby based projects, it includes Tailwind CSS and Alpine JS + some Kirby plugins.
 
