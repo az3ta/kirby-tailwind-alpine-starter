@@ -16,6 +16,7 @@ Personal starterkit for Kirby based projects, it includes Tailwind CSS and Alpin
 
 ```
 git clone https://github.com/az3ta/kirby-tailwind-alpine-starter YOUR-PROJECT
+cd YOUR-PROJECT
 ```
 
 3. Install Kirby and dependencies
