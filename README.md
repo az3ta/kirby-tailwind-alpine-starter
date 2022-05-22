@@ -6,9 +6,9 @@ Personal starterkit for Kirby based projects, it includes Tailwind CSS and Alpin
 
 ## Requirements
 
--   (Composer)[https://getcomposer.org]
--   (NPM)[https://www.npmjs.com]
--   PHP server (e.g. (Valet Laravel)[https://laravel.com/docs/9.x/valet])
+-   [Composer](https://getcomposer.org)
+-   [NPM](https://www.npmjs.com)
+-   PHP server (e.g. [Valet Laravel](https://laravel.com/docs/9.x/valet))
 
 ## Installation
 
