@@ -1,0 +1,92 @@
+{
+    "name": "laminas/laminas-diagnostics",
+    "description": "A set of components for performing diagnostic tests in PHP applications",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "laminas",
+        "php",
+        "diagnostics",
+        "test"
+    ],
+    "homepage": "https://laminas.dev",
+    "support": {
+        "docs": "https://docs.laminas.dev/laminas-diagnostics/",
+        "issues": "https://github.com/laminas/laminas-diagnostics/issues",
+        "source": "https://github.com/laminas/laminas-diagnostics",
+        "rss": "https://github.com/laminas/laminas-diagnostics/releases.atom",
+        "chat": "https://laminas.dev/chat",
+        "forum": "https://discourse.laminas.dev"
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.4.99"
+        },
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.6.x-dev",
+            "dev-develop": "1.7.x-dev"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ~8.0.0 || ~8.1.0"
+    },
+    "require-dev": {
+        "doctrine/migrations": "^2.0 || ^3.0",
+        "enlightn/security-checker": "^1.10",
+        "guzzlehttp/guzzle": "^7.2",
+        "laminas/laminas-coding-standard": "~2.3.0",
+        "laminas/laminas-loader": "^2.0",
+        "mikey179/vfsstream": "dev-master#08a798577d677436f4f4ea3d0b3c949f64655548 as 1.6.9",
+        "php-amqplib/php-amqplib": "^2.0 || ^3.0",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpunit/phpunit": "^9.5.9",
+        "psalm/plugin-phpunit": "^0.15.1",
+        "predis/predis": "^1.0",
+        "symfony/yaml": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+        "vimeo/psalm": "^4.7"
+    },
+    "conflict": {
+        "guzzlehttp/ringphp": "<1.1.1",
+        "symfony/finder": "<5.3.7",
+        "symfony/process": "<5.3.7",
+        "zendframework/zenddiagnostics": "*"
+    },
+    "suggest": {
+        "ext-bcmath": "Required by Check\\CpuPerformance",
+        "doctrine/migrations": "Required by Check\\DoctrineMigration",
+        "guzzlehttp/guzzle": "Required by Check\\GuzzleHttpService",
+        "predis/predis": "Required by Check\\Redis",
+        "enlightn/security-checker": "Required by Check\\SecurityAdvisory",
+        "symfony/yaml": "Required by Check\\YamlFile",
+        "php-amqplib/php-amqplib": "Required by Check\\RabbitMQ"
+    },
+    "autoload": {
+        "files": [
+            "src/autoload.php"
+        ],
+        "psr-4": {
+            "Laminas\\Diagnostics\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaminasTest\\Diagnostics\\": "test/"
+        }
+    },
+    "scripts": {
+        "check": [
+            "@cs-check",
+            "@test"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "static-analysis": "psalm --shepherd --stats",
+        "test": "phpunit --colors=always",
+        "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
+    }
+}

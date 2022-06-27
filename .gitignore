@@ -53,7 +53,5 @@ Icon
 
 # More
 # ---------------
-/kirby
-/vendor
 /.editorconfig
 /node_modules
