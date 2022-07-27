@@ -43,11 +43,15 @@ valet secure
 
 ## Development
 
+It runs the Tailwind engine for development
+
 ```
 npm run watch
 ```
 
 ## Production
+
+It creates the CSS file for production
 
 ```
 npm run build
