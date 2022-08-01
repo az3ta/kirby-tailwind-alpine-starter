@@ -1,9 +1,0 @@
-{
-    "extensions": [
-        "apcu",
-        "bcmath",
-        "memcached",
-        "mongodb",
-        "redis"
-    ]
-}

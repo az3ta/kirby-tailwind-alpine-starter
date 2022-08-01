@@ -14,8 +14,6 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'Laminas\\Escaper\\' => array($vendorDir . '/laminas/laminas-escaper/src'),
-    'Laminas\\Diagnostics\\' => array($vendorDir . '/laminas/laminas-diagnostics/src'),
-    'Kirby\\' => array($vendorDir . '/getkirby/composer-installer/src', $baseDir . '/kirby/src'),
-    'Bnomei\\' => array($baseDir . '/site/plugins/kirby3-doctor/classes'),
+    'Kirby\\' => array($baseDir . '/kirby/src', $vendorDir . '/getkirby/composer-installer/src'),
     '' => array($vendorDir . '/league/color-extractor/src'),
 );

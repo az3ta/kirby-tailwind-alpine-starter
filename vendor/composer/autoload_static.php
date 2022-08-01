@@ -8,7 +8,6 @@ class ComposerStaticInit60df3b9251f1abe78232831b394ede9d
 {
     public static $files = array (
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
-        'fe6aee0c0ec174a325f8335f6c481d7d' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/autoload.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'f864ae44e8154e5ff6f4eec32f46d37f' => __DIR__ . '/../..' . '/kirby/config/setup.php',
@@ -38,15 +37,10 @@ class ComposerStaticInit60df3b9251f1abe78232831b394ede9d
         'L' => 
         array (
             'Laminas\\Escaper\\' => 16,
-            'Laminas\\Diagnostics\\' => 20,
         ),
         'K' => 
         array (
             'Kirby\\' => 6,
-        ),
-        'B' => 
-        array (
-            'Bnomei\\' => 7,
         ),
     );
 
@@ -83,18 +77,10 @@ class ComposerStaticInit60df3b9251f1abe78232831b394ede9d
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-escaper/src',
         ),
-        'Laminas\\Diagnostics\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src',
-        ),
         'Kirby\\' => 
         array (
-            0 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
-            1 => __DIR__ . '/../..' . '/kirby/src',
-        ),
-        'Bnomei\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes',
+            0 => __DIR__ . '/../..' . '/kirby/src',
+            1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
         ),
     );
 
@@ -120,18 +106,6 @@ class ComposerStaticInit60df3b9251f1abe78232831b394ede9d
     );
 
     public static $classMap = array (
-        'Bnomei\\CheckGitFolder' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckGitFolder.php',
-        'Bnomei\\CheckHtaccess' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckHtaccess.php',
-        'Bnomei\\CheckKirbyAccount' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckKirbyAccount.php',
-        'Bnomei\\CheckKirbyCacheSize' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckKirbyCacheSize.php',
-        'Bnomei\\CheckKirbyLicense' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckKirbyLicense.php',
-        'Bnomei\\CheckKirbyMediaSize' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckKirbyMediaSize.php',
-        'Bnomei\\CheckKirbySystem' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckKirbySystem.php',
-        'Bnomei\\CheckKirbyVersion' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckKirbyVersion.php',
-        'Bnomei\\CheckSSL' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/CheckSSL.php',
-        'Bnomei\\Doctor' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/Doctor.php',
-        'Bnomei\\DoctorReporter' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/DoctorReporter.php',
-        'Bnomei\\Interfaces\\Doctor' => __DIR__ . '/../..' . '/site/plugins/kirby3-doctor/classes/Interfaces/Doctor.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Kirby\\Api\\Api' => __DIR__ . '/../..' . '/kirby/src/Api/Api.php',
         'Kirby\\Api\\Collection' => __DIR__ . '/../..' . '/kirby/src/Api/Collection.php',
@@ -389,55 +363,6 @@ class ComposerStaticInit60df3b9251f1abe78232831b394ede9d
         'Kirby\\Toolkit\\V' => __DIR__ . '/../..' . '/kirby/src/Toolkit/V.php',
         'Kirby\\Toolkit\\View' => __DIR__ . '/../..' . '/kirby/src/Toolkit/View.php',
         'Kirby\\Toolkit\\Xml' => __DIR__ . '/../..' . '/kirby/src/Toolkit/Xml.php',
-        'Laminas\\Diagnostics\\Check\\AbstractCheck' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/AbstractCheck.php',
-        'Laminas\\Diagnostics\\Check\\AbstractFileCheck' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/AbstractFileCheck.php',
-        'Laminas\\Diagnostics\\Check\\AbstractMemoryCheck' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/AbstractMemoryCheck.php',
-        'Laminas\\Diagnostics\\Check\\ApcFragmentation' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/ApcFragmentation.php',
-        'Laminas\\Diagnostics\\Check\\ApcMemory' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/ApcMemory.php',
-        'Laminas\\Diagnostics\\Check\\Callback' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/Callback.php',
-        'Laminas\\Diagnostics\\Check\\CheckCollectionInterface' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/CheckCollectionInterface.php',
-        'Laminas\\Diagnostics\\Check\\CheckInterface' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/CheckInterface.php',
-        'Laminas\\Diagnostics\\Check\\ClassExists' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/ClassExists.php',
-        'Laminas\\Diagnostics\\Check\\CouchDBCheck' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/CouchDBCheck.php',
-        'Laminas\\Diagnostics\\Check\\CpuPerformance' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/CpuPerformance.php',
-        'Laminas\\Diagnostics\\Check\\DirReadable' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/DirReadable.php',
-        'Laminas\\Diagnostics\\Check\\DirWritable' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/DirWritable.php',
-        'Laminas\\Diagnostics\\Check\\DiskFree' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/DiskFree.php',
-        'Laminas\\Diagnostics\\Check\\DiskUsage' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/DiskUsage.php',
-        'Laminas\\Diagnostics\\Check\\DoctrineMigration' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/DoctrineMigration.php',
-        'Laminas\\Diagnostics\\Check\\ExtensionLoaded' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/ExtensionLoaded.php',
-        'Laminas\\Diagnostics\\Check\\GuzzleHttpService' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/GuzzleHttpService.php',
-        'Laminas\\Diagnostics\\Check\\HttpService' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/HttpService.php',
-        'Laminas\\Diagnostics\\Check\\IniFile' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/IniFile.php',
-        'Laminas\\Diagnostics\\Check\\JsonFile' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/JsonFile.php',
-        'Laminas\\Diagnostics\\Check\\Memcache' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/Memcache.php',
-        'Laminas\\Diagnostics\\Check\\Memcached' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/Memcached.php',
-        'Laminas\\Diagnostics\\Check\\Mongo' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/Mongo.php',
-        'Laminas\\Diagnostics\\Check\\OpCacheMemory' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/OpCacheMemory.php',
-        'Laminas\\Diagnostics\\Check\\PDOCheck' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/PDOCheck.php',
-        'Laminas\\Diagnostics\\Check\\PhpFlag' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/PhpFlag.php',
-        'Laminas\\Diagnostics\\Check\\PhpVersion' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/PhpVersion.php',
-        'Laminas\\Diagnostics\\Check\\ProcessRunning' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/ProcessRunning.php',
-        'Laminas\\Diagnostics\\Check\\RabbitMQ' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/RabbitMQ.php',
-        'Laminas\\Diagnostics\\Check\\Redis' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/Redis.php',
-        'Laminas\\Diagnostics\\Check\\SecurityAdvisory' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/SecurityAdvisory.php',
-        'Laminas\\Diagnostics\\Check\\StreamWrapperExists' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/StreamWrapperExists.php',
-        'Laminas\\Diagnostics\\Check\\XmlFile' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/XmlFile.php',
-        'Laminas\\Diagnostics\\Check\\YamlFile' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Check/YamlFile.php',
-        'Laminas\\Diagnostics\\Result\\AbstractResult' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/AbstractResult.php',
-        'Laminas\\Diagnostics\\Result\\Collection' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/Collection.php',
-        'Laminas\\Diagnostics\\Result\\Failure' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/Failure.php',
-        'Laminas\\Diagnostics\\Result\\FailureInterface' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/FailureInterface.php',
-        'Laminas\\Diagnostics\\Result\\ResultInterface' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/ResultInterface.php',
-        'Laminas\\Diagnostics\\Result\\Skip' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/Skip.php',
-        'Laminas\\Diagnostics\\Result\\SkipInterface' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/SkipInterface.php',
-        'Laminas\\Diagnostics\\Result\\Success' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/Success.php',
-        'Laminas\\Diagnostics\\Result\\SuccessInterface' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/SuccessInterface.php',
-        'Laminas\\Diagnostics\\Result\\Warning' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/Warning.php',
-        'Laminas\\Diagnostics\\Result\\WarningInterface' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Result/WarningInterface.php',
-        'Laminas\\Diagnostics\\Runner\\Reporter\\BasicConsole' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Runner/Reporter/BasicConsole.php',
-        'Laminas\\Diagnostics\\Runner\\Reporter\\ReporterInterface' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Runner/Reporter/ReporterInterface.php',
-        'Laminas\\Diagnostics\\Runner\\Runner' => __DIR__ . '/..' . '/laminas/laminas-diagnostics/src/Runner/Runner.php',
         'Laminas\\Escaper\\Escaper' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Escaper.php',
         'Laminas\\Escaper\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/ExceptionInterface.php',
         'Laminas\\Escaper\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/laminas/laminas-escaper/src/Exception/InvalidArgumentException.php',
