@@ -1,0 +1,66 @@
+{
+  "name": "leitsch/kirby-blade",
+  "description": "Enable Laravel Blade Template Engine for Kirby 3",
+  "keywords": [
+    "kirby",
+    "kirby-3",
+    "kirby3-plugin",
+    "kirby-plugin",
+    "kirby-blade",
+    "blade",
+    "laravel",
+    "view",
+    "template",
+    "template-engine"
+  ],
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lukas Leitsch",
+      "email": "lukas@leitsch.org"
+    },
+    {
+      "name": "Fabian Michael",
+      "email": "hallo@fabianmichael.de"
+    },
+    {
+      "name": "Ahmet Bora",
+      "email": "ahmet@getkirby.com"
+    }
+  ],
+  "scripts": {
+    "cs-fixer": "vendor/bin/php-cs-fixer fix --dry-run --diff",
+    "cs-fixer-fix": "vendor/bin/php-cs-fixer fix --diff"
+  },
+  "require": {
+    "php": "^8.0",
+    "getkirby/composer-installer": "^1.2",
+    "illuminate/config": "^9.0",
+    "illuminate/view": "^9.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.5"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Leitsch\\Blade\\": "src/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "installer-name": "blade"
+  }
+}

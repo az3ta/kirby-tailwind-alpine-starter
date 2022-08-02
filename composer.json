@@ -20,7 +20,9 @@
   "require": {
     "php": ">=7.4.0 <8.2.0",
     "getkirby/cms": "^3.6",
-    "diesdasdigital/kirby-meta-knight": "^1.2"
+    "diesdasdigital/kirby-meta-knight": "^1.2",
+    "hananils/kirby-colors": "^1.6",
+    "leitsch/kirby-blade": "^2.3"
   },
   "scripts": {
     "start": [

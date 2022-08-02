@@ -1,0 +1,40 @@
+Title: About
+
+tabs:
+  content:
+    icon: text
+    columns:
+      left:
+        width: 1/2
+        sections:
+          visual:
+            type: files
+            max: 1
+            template: aboutVisual
+
+      right:
+        width: 1/2
+        fields:
+          colors:
+            type: colors
+            label: Background Color
+            alpha: true
+          about:
+            type: textarea
+          metaverse:
+            type: url
+          editorial:
+            type: email
+          admin:
+            type: email
+          ig:
+            type: text
+            label: Instagram Handle
+            help: Only add IG handle - It will be automatically transformed into the right URL
+          address:
+            type: textarea
+          iva:
+            label: Partita IVA
+            type: text
+
+  seotab: seo
