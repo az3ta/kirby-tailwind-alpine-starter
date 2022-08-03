@@ -26,7 +26,15 @@ return [
       'quality'   => 80,
       'driver' => 'im'
       ],
-  ]
+    ],
+    'routes' => [
+      [
+        'pattern' => '/home/{slug}',
+        'action'  => function () {
+          return page('/{slug}');
+        }
+      ],
+    ],
   ];
 
 

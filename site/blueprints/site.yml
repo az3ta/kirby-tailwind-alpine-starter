@@ -1,2 +1,34 @@
-preset: pages
-unlisted: true
+title: site
+
+tabs:
+  pages:
+    icon: page
+    columns:
+      - width: 1/1
+        sections:
+          stats:
+            type: stats
+            reports:
+              - label: Authors
+                value: #
+              - label: Articles
+                value: #
+              - label: Products
+                value: #
+
+      - width: 2/3
+        sections:
+          mainPages:
+            type: pages
+            template: [home, about, team]
+            layout: cards
+            label: Main Pages
+            create: false
+      - width: 1/3
+        sections:
+          technicalPage:
+            type: pages
+            template: [error, policy]
+            create: false
+            label: Technical Pages
+  seotab: seo
