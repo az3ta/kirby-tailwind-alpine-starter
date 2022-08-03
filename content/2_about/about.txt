@@ -6,7 +6,13 @@ Colors: #ff2600
 
 ----
 
-About: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+About:
+
+RED-EYE is the voice of a new language of creators that support an open metaverse, where anyone can contribute to its value of freedom, inclusivity and envision an interoperable web of worlds.
+RED-EYE is intended to build and co-create a community of innovators to research and envision concepts of extended world design and future lifestyle.
+We depart on a RED-EYE, across uncertain darkness and arrive in the morning greeted by the blinding sun.
+LIVE. SEE. DREAM.
+TO THE METAVERSE AND BACK.
 
 ----
 

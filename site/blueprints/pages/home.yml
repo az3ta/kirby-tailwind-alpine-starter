@@ -1,0 +1,10 @@
+title: Home
+
+tabs:
+  content:
+    icon: text
+    sections:
+      content:
+        type: pages
+        layout: table
+        template: [article, product]

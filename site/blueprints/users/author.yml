@@ -1,0 +1,31 @@
+title: Author
+
+tabs:
+  address:
+    label: Bio
+    icon: text
+    fields:
+      workRole:
+        type: text
+        width: 1/2
+        required: true
+        label: Role
+      bio:
+        type: textarea
+        width: 1/2
+
+  articles:
+    icon: twitter
+    sections:
+      info:
+        type: fields
+        fields:
+          website:
+            label: Website
+            type: url
+            width: 1/2
+          twitter:
+            label: Twitter
+            type: text
+            icon: twitter
+            width: 1/2

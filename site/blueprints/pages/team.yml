@@ -1,0 +1,24 @@
+Title: Tema
+
+tabs:
+  content:
+    icon: text
+    columns:
+      left:
+        width: 1/2
+        fields:
+          colors:
+            type: colors
+            label: Background Color
+            alpha: true
+          about:
+            type: textarea
+
+      right:
+        width: 1/2
+        sections:
+          team:
+            type: pages
+            parent: site.users
+
+  seotab: seo

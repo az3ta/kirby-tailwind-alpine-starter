@@ -19,6 +19,9 @@
     [x-cloak] { display: none !important; }
   </style>
 </head>
-<body x-data="{ openMenu: false }">
-@snippet('nav')
+<body
+  class="font-sans"
+  x-data="{ openMenu: false }">
+
+  @snippet('nav')
 

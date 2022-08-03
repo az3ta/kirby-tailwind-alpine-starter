@@ -3,7 +3,8 @@
   <button
     role="button"
     type="button"
-    x-text="openMenu ? 'Close' : 'Menu'"
+    x-text="openMenu ? 'CLOSE' : 'MENU'"
+    class="hover:text-gray-600"
     @click="openMenu = !openMenu">
   </button>
 </nav>
