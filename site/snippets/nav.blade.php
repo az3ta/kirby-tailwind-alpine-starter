@@ -1,5 +1,9 @@
-<nav class="flex flex-row w-full justify-between fixed top-8 px-8">
-  <a href="{{ $site->url() }}">RED-EYE</a>
+<nav class="flex flex-row w-full justify-between fixed top-8 px-8 items-start">
+  <h1>
+    <a href="{{ $site->url() }}">
+      @svg('assets/logo/logo-black.svg')
+    </a>
+  </h1>
   <button
     role="button"
     type="button"

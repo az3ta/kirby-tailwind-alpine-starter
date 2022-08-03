@@ -1,0 +1,63 @@
+title: Article
+
+tabs:
+  content:
+    icon: text
+    columns:
+      - width: 1/3
+        sections:
+          cover:
+            type: files
+            template: coverArticle
+            max: 1
+            min: 1
+            layout: cards
+          meta:
+            type: fields
+            width: 1/2
+            fields:
+              colors:
+                type: colors
+                label: Background Color
+                alpha: true
+              highlight:
+                type: toggle
+                label: Always show in homepage?
+              date:
+                type: date
+                required: true
+              author:
+                type: select
+                options: query
+                query: site.find("team").children.listed
+                required: true
+              imagesBy:
+                type: text
+                label: Images by
+              categories:
+                type: multiselect
+                options: query
+                query:
+                  fetch: site.find("home").categories.toStructure
+                  text: '{{ structureItem.catEntry }}'
+                  value: '{{ structureItem.catEntry }}'
+              tags:
+                type: multiselect
+                options: query
+                query:
+                  fetch: site.find("home").tags.toStructure
+                  text: '{{ structureItem.tagEntry }}'
+                  value: '{{ structureItem.tagEntry }}'
+              link:
+                type: url
+      - width: 2/3
+        fields:
+          article:
+            type: layout
+            fieldsets:
+              - text
+              - image
+              - slideshow
+              - video
+
+  seotab: seo

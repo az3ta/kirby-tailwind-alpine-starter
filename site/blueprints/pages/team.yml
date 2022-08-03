@@ -1,4 +1,4 @@
-Title: Tema
+title: Team
 
 tabs:
   content:
@@ -19,6 +19,9 @@ tabs:
         sections:
           team:
             type: pages
-            parent: site.users
+            template: author
+            layout: cardlets
+            info: '{{ page.workRole }}'
+            sortBy: title asc
 
   seotab: seo

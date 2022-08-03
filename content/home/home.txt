@@ -1,1 +1,29 @@
 Title: Home
+
+----
+
+Categories:
+
+- 
+  catentry: Aesthetics
+- 
+  catentry: Beauty
+- 
+  catentry: Fashion
+- 
+  catentry: Interviews
+- 
+  catentry: Music
+- 
+  catentry: News
+
+----
+
+Tags:
+
+- 
+  tagentry: Tag 1
+- 
+  tagentry: Tag 2
+- 
+  tagentry: Tag 3

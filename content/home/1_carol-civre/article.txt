@@ -1,0 +1,169 @@
+Title: Carol Civre
+
+----
+
+Colors: #00ff47
+
+----
+
+Highlight: false
+
+----
+
+Date: 2022-07-15
+
+----
+
+Author: team/gloria-maria-cappelletti
+
+----
+
+Imagesby: DONALD GJOKA
+
+----
+
+Categories: Aesthetics, Fashion
+
+----
+
+Tags: Tag 1, Tag 2, Tag 3
+
+----
+
+Link: https://www.google.com/
+
+----
+
+Article: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Consequatur cumque vel amet. Qui accusantium animi esse voluptatem aut. Delectus voluptatum fuga enim qui eos et. Officia alias quia modi repudiandae debitis. Doloremque rem sed quos earum. Velit eum non qui. Velit accusamus aut repellat mollitia commodi ut ullam eum sit culpa qui natus. Aut quia adipisci rem architecto adipisci ut id deleniti voluptatum voluptas reprehenderit in sapiente.<\/p>"},"id":"1ffe91bb-8b9a-43a5-922d-cd845b438891","isHidden":false,"type":"text"}],"id":"c98630e5-d277-485a-809c-f96bbbcdd4e2","width":"1\/1"}],"id":"f46753a1-e702-4a1c-a0b3-cb89fb9f50c5"},{"attrs":[],"columns":[{"blocks":[{"content":{"url":"https:\/\/vimeo.com\/352567251","caption":""},"id":"720bf00c-6d27-4396-9e1f-dfb7c4705648","isHidden":false,"type":"video"}],"id":"469219d2-13a8-476b-ac29-f9a143e59b13","width":"1\/1"}],"id":"d89a0ef1-38f7-4530-bd53-bf2998ee5b22"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Necessitatibus soluta consectetur dolores. Inventore tenetur cupiditate sunt sint sint veniam qui consequatur dignissimos est est earum dolorum similique. Beatae natus hic facilis quae at ipsam totam eveniet hic. Rem a quaerat sunt fugit numquam quia molestiae porro laboriosam aut sit officia maxime magnam architecto. Saepe quas voluptate ex accusantium itaque. Iure minus eos vitae consequatur nam exercitationem qui.<\/p>"},"id":"0d53f208-68a7-47fb-9b7a-571638908283","isHidden":false,"type":"text"}],"id":"1e560cee-4861-463f-8010-181f60b6950e","width":"1\/1"}],"id":"16a97619-4a5f-4849-857b-0f6f05eb2c3b"}]
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-08-03 09:40:00
+
+----
+
+Og-type-article-modified-time: 2022-08-03 09:40:00
+
+----
+
+Og-type-article-expiration-time: 2022-08-03 09:40:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
+
+----
+
+Images: DONALD GJOKA

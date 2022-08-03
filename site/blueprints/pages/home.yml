@@ -8,3 +8,22 @@ tabs:
         type: pages
         layout: table
         template: [article, product]
+        search: true
+  tags:
+    icon: tag
+    fields:
+      categories:
+        width: 1/2
+        type: structure
+        help: ⚠️ Categories are visible in the menu
+        fields:
+          catEntry:
+            type: text
+            label: Category
+      tags:
+        width: 1/2
+        type: structure
+        fields:
+          tagEntry:
+            type: text
+            label: Tag

@@ -1,0 +1,30 @@
+title: Author
+
+tabs:
+  content:
+    icon: text
+    columns:
+      left:
+        width: 1/2
+        fields:
+          colors:
+            type: colors
+            label: Background Color
+            alpha: true
+          workRole:
+            type: text
+            required: true
+            label: Role
+          about:
+            type: textarea
+
+      right:
+        width: 1/2
+        sections:
+          avatar:
+            type: files
+            max: 1
+            min: 1
+            layout: cards
+
+  seotab: seo

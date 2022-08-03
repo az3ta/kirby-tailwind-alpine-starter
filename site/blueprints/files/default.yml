@@ -1,0 +1,9 @@
+title: Default File
+
+fields:
+  caption:
+    type: text
+    width: 1/2
+  alt:
+    type: text
+    width: 1/2

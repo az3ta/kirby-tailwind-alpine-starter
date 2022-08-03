@@ -32,9 +32,11 @@
       <div>
         <h2>CATEGORIES</h2>
         <menu>
-          <li>cat1</li>
-          <li>cat2</li>
-          <li>cat3</li>
+          @foreach (page('home')->categories()->toStructure()->sortBy('catEntry', 'asc') as $category)
+            <li>
+              <p>{{ $category->catEntry() }}</p>
+            </li>
+          @endforeach
         </menu>
       </div>
     </section>

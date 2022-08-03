@@ -15,9 +15,13 @@
   <!-- Alpine JS -->
   <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
 
+  @js('assets/js/renderer2.js', ['type' => 'module'])
+  @css('assets/css/yano2.css')
+
   <style>
     [x-cloak] { display: none !important; }
   </style>
+
 </head>
 <body
   class="font-sans"
